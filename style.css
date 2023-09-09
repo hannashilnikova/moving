@@ -1,1 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw; height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/uploads/2022/12/bg.jpg);
+    background-size: cover;
+}
 
+.windmill,
+.screw {
+    position: absolute;
+}
+
+.windmill img,
+.screw img {
+    height: 100%;
+}
+
+.windmill {
+    height: 80vh;
+    transform: translateY(28vh);
+    z-index: -1;
+}
+
+.screw {
+    height: 60vh;
+    z-index: 0;
+}
